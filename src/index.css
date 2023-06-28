@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Roboto-Regular';
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color:initial;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  height: 100px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.SrchBar{
+  background: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 10px;
+    width: 20vw;
+}
+
+.SrchBar:focus-visible{
+  outline: none;
+}
+
+.HideSrchBar{
+  display: none;
+}
+
+.w-100{
+  width:100%;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.pagePadd{
+  padding-left:18%;
+  padding-right:18%;
+}
+
+.ProdList{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 2%;
+}
+
+.card{
+  width:20%;
+  border: 4px solid bisque;
+  margin: 0px 20px 40px 0px;
+}
+.content{
+  padding:15px;
+}
+
+.image img {
+  width: 100%;
+  height: 195px;
+  object-fit: cover;
+  border-bottom: 2px solid bisque;
+}
+
+.MainCard{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.MainCrdContent {
+  margin-top: 40px;
+  background-color: bisque;
+  color: #323232;
+  padding: 2% 10%;
+}
+
+.centreAlign{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProdImgBx{
+  width:50%;
+  max-width: 50%;
+}
+
+.ProdImgThumb{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.ProdImgs{
+  height: 115px;
+  min-width: 218px;
+  margin: 10px;
+}
+
+.ProdImgs img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prodContent{
+  color: darkslategray;
+  font-size: 17px;
+  margin-top:5px;
+}
+
+.prodContent span{
+  font-family: 'Roboto-Medium';
+  color:#323232;
+}
+
+.prodDescription{
+  font-family: 'Roboto-Medium';
+  font-size: 17px;
+  color: darkslategray;
+}
+
+.prodTitle{
+  font-family: 'Roboto-Bold';
+  font-size: 25px;
+}
+
+.CustomerRev{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.CustName{
+  font-family: 'Roboto-Medium';
+  font-size: 17px;
+  color: darkslategray;
+}
+
+.CustRating{
+  font-family: 'Roboto-Medium';
+  color:#323232;
+}
+
+.CustRev{
+  color: darkslategray;
+  font-size: 17px;
+  margin-top:10px;
+}
+
+.userdp {
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  margin-right: 8px;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
+}
